@@ -1847,6 +1847,7 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_MESSAGE_COMPRESSION = 'gzip'
 CELERY_TIMEZONE = 'Europe/London'
 CELERY_ENABLE_UTC = True
+
 # Results configuration
 
 CELERY_IGNORE_RESULT = False
@@ -1884,7 +1885,7 @@ CELERY_QUEUES = {
 }
 
 # let logging work as configured:
-CELERYD_HIJACK_ROOT_LOGGER = True
+CELERYD_HIJACK_ROOT_LOGGER = False
 
 ################################ Block Structures ###################################
 

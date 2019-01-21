@@ -900,6 +900,8 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 
 CELERY_MESSAGE_COMPRESSION = 'gzip'
+CELERY_TIMEZONE = 'Europe/London'
+CELERY_ENABLE_UTC = True
 
 # Results configuration
 
